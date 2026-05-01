@@ -39,19 +39,24 @@ Build a data-driven churn prediction system that:
 ---
 
 ## Project Structure
+
+```
 customer-churn-prediction/
 │
-├── 01_EDA_Churn_Analysis.ipynb   ← Full EDA + model notebook
-├── dashboard_data.csv             ← Final dataset with predictions
-├── churn_predictions.csv          ← Model output scores
+├── 01_EDA_Churn_Analysis.ipynb
+├── dashboard_data.csv
+├── churn_predictions.csv
+│
 ├── docs/
-│   └── BRD_CustomerChurn_TelecomX_ShrustiKhadji.pdf    ← Business Requirements Document
+│   └── BRD_CustomerChurn.docx
+│
 └── charts/
-├── chart1_contract_churn.png
-├── chart2_tenure_churn.png
-├── chart3_internet_churn.png
-├── chart4_correlation.png
-└── chart5_churn_drivers.png
+    ├── chart1_contract_churn.png
+    ├── chart2_tenure_churn.png
+    ├── chart3_internet_churn.png
+    ├── chart4_correlation.png
+    └── chart5_churn_drivers.png
+```
 
 ## Business Recommendations
 1. **Contract upgrade incentive** at month 3 for month-to-month customers
